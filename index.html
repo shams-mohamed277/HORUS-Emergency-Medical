@@ -291,7 +291,7 @@ function setLang(lang){
   localStorage.setItem("medicalLang",lang);
 }
 document.querySelectorAll(".langs button").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
-setLang(localStorage.getItem("medicalLang") || "en");
+setLang(localStorage.getItem("medicalLang") || "ar");
 </script>
 </body>
 </html>
